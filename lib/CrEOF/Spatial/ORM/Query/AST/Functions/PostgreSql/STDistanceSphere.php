@@ -33,7 +33,7 @@ use CrEOF\Spatial\ORM\Query\AST\Functions\AbstractSpatialDQLFunction;
  */
 class STDistanceSphere extends AbstractSpatialDQLFunction
 {
-    protected $platforms = array('postgresql');
+    protected $platforms = array('postgresql', 'mysql');
 
     protected $functionName = 'ST_Distance_Sphere';
 
